@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "zFsaAd2VQZpprlvNLI7ERm2hghEM7vHE5lFS7Qt/4Nw=",
+  "Source": "AskBot",
+  "BasePath": "_content/AskBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AskBot\\wwwroot",
+      "Source": "AskBot",
+      "ContentRoot": "C:\\Users\\jnyan\\Downloads\\AskBot\\AskBot\\wwwroot\\",
+      "BasePath": "_content/AskBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jnyan\\Downloads\\AskBot\\AskBot\\wwwroot\\default.html",
+      "SourceId": "AskBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jnyan\\Downloads\\AskBot\\AskBot\\wwwroot\\",
+      "BasePath": "_content/AskBot",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    }
+  ]
+}
