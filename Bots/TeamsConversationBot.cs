@@ -67,9 +67,9 @@ namespace Microsoft.BotBuilderSamples.Bots
                         JObject firstResponseObj = (JObject)jsonObj["response"][0];
                         string responseStr = (string)firstResponseObj["answer"];
                         Match patternMatch = Regex.Match(responseStr, @"Document \d+");
-                        string fileName = (string)firstResponseObj["meta"][0]["fileName"];
+                        string fileName = (string)firstResponseObj["meta"][0]["originalFileName"];
                         string fileNameUrl = fileBaseUrl + fileName;
-                        string finalStr = Regex.Replace(responseStr, @"Document \d+", "<a href=\""+fileNameUrl+"\">"+patternMatch.Value+ "</a>");
+                        string finalStr = responseStr + Environment.NewLine + "Related file: <a href=\""+fileNameUrl+"\">"+fileName+ "</a>";
                         return finalStr;
                     }
                     else
