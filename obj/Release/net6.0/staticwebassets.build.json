@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zFsaAd2VQZpprlvNLI7ERm2hghEM7vHE5lFS7Qt/4Nw=",
+  "Hash": "dLhnpK55CZsC9qrWnJLLUpEQ0mpA4mL7wVLgoRFzn98=",
   "Source": "AskBot",
   "BasePath": "_content/AskBot",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AskBot\\wwwroot",
       "Source": "AskBot",
-      "ContentRoot": "C:\\Users\\jnyan\\Downloads\\AskBot\\AskBot\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jnyan\\Repos\\AskBot\\wwwroot\\",
       "BasePath": "_content/AskBot",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jnyan\\Downloads\\AskBot\\AskBot\\wwwroot\\default.html",
+      "Identity": "C:\\Users\\jnyan\\Repos\\AskBot\\wwwroot\\default.html",
       "SourceId": "AskBot",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jnyan\\Downloads\\AskBot\\AskBot\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jnyan\\Repos\\AskBot\\wwwroot\\",
       "BasePath": "_content/AskBot",
       "RelativePath": "default.html",
       "AssetKind": "All",

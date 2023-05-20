@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z/Q0tfP1KJfYAad0jTH+XJw5S3+UEL5fRnWUx+wEEN0=",
+  "Hash": "dLhnpK55CZsC9qrWnJLLUpEQ0mpA4mL7wVLgoRFzn98=",
   "Source": "AskBot",
   "BasePath": "_content/AskBot",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AskBot\\wwwroot",
       "Source": "AskBot",
-      "ContentRoot": "C:\\Users\\anurjain\\source\\Microsoft-Teams-Samples\\samples\\bot-conversation\\AskBot\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jnyan\\Repos\\AskBot\\wwwroot\\",
       "BasePath": "_content/AskBot",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\anurjain\\source\\Microsoft-Teams-Samples\\samples\\bot-conversation\\AskBot\\wwwroot\\default.html",
+      "Identity": "C:\\Users\\jnyan\\Repos\\AskBot\\wwwroot\\default.html",
       "SourceId": "AskBot",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\anurjain\\source\\Microsoft-Teams-Samples\\samples\\bot-conversation\\AskBot\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jnyan\\Repos\\AskBot\\wwwroot\\",
       "BasePath": "_content/AskBot",
       "RelativePath": "default.html",
       "AssetKind": "All",
