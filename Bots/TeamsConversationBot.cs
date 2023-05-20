@@ -68,7 +68,7 @@ namespace Microsoft.BotBuilderSamples.Bots
                         string responseStr = (string)firstResponseObj["answer"];
                         Match patternMatch = Regex.Match(responseStr, @"Document \d+");
                         string fileName = (string)firstResponseObj["meta"][0]["originalFileName"];
-                        string fileNameUrl = fileBaseUrl + fileName;
+                        string fileNameUrl = fileBaseUrl + (string)firstResponseObj["meta"][0]["fileName"];
                         string finalStr = responseStr + Environment.NewLine + "Related file: <a href=\""+fileNameUrl+"\">"+fileName+ "</a>";
                         return finalStr;
                     }
