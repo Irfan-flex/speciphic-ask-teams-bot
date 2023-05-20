@@ -30,7 +30,7 @@ namespace Microsoft.BotBuilderSamples.Bots
         private string _appId;
         private string _appPassword;
         private string url = "https://dev.askopenaidev.api.speciphic.ai/api/v1/file-collections/6463b04c2b66a3283ae7c6e3/search?q=";
-        private string fileBaseUrl = "https://dev.askopenaidev.api.speciphic.ai/api/v1/file-collections/64660cde7c49b866ba458732/";
+        private string fileBaseUrl = "https://dev.askopenaidev.api.speciphic.ai/api/v1/file-collections/6463b04c2b66a3283ae7c6e3/";
 
         public TeamsConversationBot(IConfiguration config)
         {
