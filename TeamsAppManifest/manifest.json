@@ -1,14 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
   "manifestVersion": "1.14",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "id": "4548d0ec-8f49-4fbc-a417-4c9e7870c2df",
   "packageName": "com.teams.sample.askbot",
-  "localizationInfo": {
-    "defaultLanguageTag": "en-us"
-  },
   "developer": {
-    "name": "AskBot",
+    "name": "Flexday AI",
     "websiteUrl": "https://www.microsoft.com",
     "privacyUrl": "https://www.teams.com/privacy",
     "termsOfUseUrl": "https://www.teams.com/termsofuser"
@@ -18,8 +15,8 @@
     "full": "Speciphic Ask"
   },
   "description": {
-    "short": "Speciphic Ask",
-    "full": "Speciphic Ask"
+    "short": "speciphic™ Ask",
+    "full": "Powered by Flexday AI"
   },
   "icons": {
     "outline": "AskLogo-outline.png",
@@ -45,12 +42,13 @@
           "scopes": [
             "personal",
             "groupchat",
+            "feature",
             "team"
           ],
           "commands": [
             {
-              "title": "Speciphic Ask",
-              "description": "Ask a Question."
+              "title": "speciphic™ Ask",
+              "description": "Hi, I can help you understand your HR policies of your company."
             }
           ]
         }

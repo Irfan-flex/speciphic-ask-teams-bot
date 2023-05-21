@@ -64,13 +64,26 @@ namespace Microsoft.BotBuilderSamples.Bots
                     JObject jsonObj = JObject.Parse(response);
                     if(jsonObj["response"].Count() != 0)
                     {
+                        StringBuilder sb = new StringBuilder();
                         JObject firstResponseObj = (JObject)jsonObj["response"][0];
                         string responseStr = (string)firstResponseObj["answer"];
-                        Match patternMatch = Regex.Match(responseStr, @"Document \d+");
-                        string fileName = (string)firstResponseObj["meta"][0]["originalFileName"];
-                        string fileNameUrl = fileBaseUrl + (string)firstResponseObj["meta"][0]["fileName"];
-                        string finalStr = responseStr + Environment.NewLine + "Related file: <a href=\""+fileNameUrl+"\">"+fileName+ "</a>";
-                        return finalStr;
+                        sb.Append(responseStr + Environment.NewLine);
+                        JArray fileArray = (JArray)firstResponseObj["meta"];
+                        for(int i = 0;i < fileArray.Count; ++i)
+                        {
+                            string fileName = (string)fileArray[0]["originalFileName"];
+                            string fileNameUrl = fileBaseUrl + fileName;
+                            if(i == 0)
+                            {
+                                sb.Append(Environment.NewLine + "Related files:"+ Environment.NewLine +Environment.NewLine + " <a href=\"" + fileNameUrl + "\">" + fileName + "</a>" + Environment.NewLine);
+                            }
+                            else
+                            {
+                                sb.Append(Environment.NewLine + "<a href =\"" + fileNameUrl + "\">" + fileName + "</a>" + Environment.NewLine);
+                            }
+                        }
+                       
+                        return sb.ToString();
                     }
                     else
                     {
