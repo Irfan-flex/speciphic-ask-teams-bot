@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.14",
+  "version": "2.0.7",
+  "id": "4548d0ec-8f49-4fbc-a417-4c9e7870c2df",
+  "packageName": "com.teams.flexday.speciphic.ask.bot",
+  "developer": {
+    "name": "Flexday",
+    "websiteUrl": "https://flexday.ai",
+    "privacyUrl": "https://flexday.ai",
+    "termsOfUseUrl": "https://flexday.ai"
+  },
+  "name": {
+    "short": "speciphic™ Ask",
+    "full": "speciphic™ Ask"
+  },
+  "description": {
+    "short": "The Answer is just a Question away!",
+    "full": "Powered by Flexday AI"
+  },
+  "icons": {
+    "outline": "AskLogo-outline.png",
+    "color": "AskLogo.png"
+  },
+  "accentColor": "#FFFFFF",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [
+    {
+      "botId": "4548d0ec-8f49-4fbc-a417-4c9e7870c2df",
+      "scopes": [
+        "personal",
+        "groupchat",
+        "team"
+      ],
+      "isNotificationOnly": false,
+      "supportsCalling": false,
+      "supportsVideo": false,
+      "supportsFiles": false,
+      "commandLists": [
+        {
+          "scopes": [
+            "personal",
+            "groupchat",
+            "team"
+          ],
+          "commands": [
+            
+          ]
+        }
+      ]
+    }
+  ],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [ "speciphicaskbot.azurewebsites.net" ]
+}
