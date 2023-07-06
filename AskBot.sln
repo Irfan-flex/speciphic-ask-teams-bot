@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskBot", "AskBot\AskBot.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskBot.Test", "AskBot.Test\AskBot.Test.csproj", "{BF599491-E2D1-46B0-B940-9A6E32F878F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskBot.Services", "AskBot.Services\AskBot.Services.csproj", "{707CC082-006E-46FD-992F-5C7E50BC4CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskBot.Services", "AskBot.Services\AskBot.Services.csproj", "{707CC082-006E-46FD-992F-5C7E50BC4CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskBot.Services.Models", "AskBot.Services.Models\AskBot.Services.Models.csproj", "{DB147327-6336-40FB-9704-FDDFFD278C57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{707CC082-006E-46FD-992F-5C7E50BC4CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{707CC082-006E-46FD-992F-5C7E50BC4CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{707CC082-006E-46FD-992F-5C7E50BC4CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB147327-6336-40FB-9704-FDDFFD278C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB147327-6336-40FB-9704-FDDFFD278C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB147327-6336-40FB-9704-FDDFFD278C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB147327-6336-40FB-9704-FDDFFD278C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
