@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AskBot.Services.Interfaces\AskBot.Services.Interfaces.csproj" />
     <ProjectReference Include="..\AskBot.Services.Models\AskBot.Services.Models.csproj" />
   </ItemGroup>
 

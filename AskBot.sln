@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskBot.Services", "AskBot.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskBot.Services.Models", "AskBot.Services.Models\AskBot.Services.Models.csproj", "{DB147327-6336-40FB-9704-FDDFFD278C57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskBot.Services.Interfaces", "AskBot.Services.Interfaces\AskBot.Services.Interfaces.csproj", "{DC1BA9E8-FB8F-4560-8FE4-360BF76ED9BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DB147327-6336-40FB-9704-FDDFFD278C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB147327-6336-40FB-9704-FDDFFD278C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB147327-6336-40FB-9704-FDDFFD278C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1BA9E8-FB8F-4560-8FE4-360BF76ED9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1BA9E8-FB8F-4560-8FE4-360BF76ED9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1BA9E8-FB8F-4560-8FE4-360BF76ED9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1BA9E8-FB8F-4560-8FE4-360BF76ED9BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
