@@ -1,16 +1,13 @@
 ﻿using AskBot.Services.Interfaces;
 using AskBot.Services.Models.In;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Headers;
+using AskBot.Services.Models.Out;
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace AskBot.Services.Search
 {
-    public class SearchService : ISearchService
+    public class SearchService : AskBot.Services.Interfaces.ISearchService
     {
         private readonly IAskUriService _askUriService;
         private readonly HttpClient _httpClient;

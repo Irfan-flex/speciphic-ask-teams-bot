@@ -1,4 +1,6 @@
-﻿namespace AskBot.Services.Models.In
+﻿using AskBot.Services.IO;
+
+namespace AskBot.Services.Models.In
 {
     public class SearchRequestBody
     {
@@ -8,6 +10,5 @@
         {
             return JsonConverter.ToString(this);
         }
-
     }
 }

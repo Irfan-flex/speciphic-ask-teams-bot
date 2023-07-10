@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AskBot.Services.Models\AskBot.Services.Models.csproj" />
+  </ItemGroup>
+
 </Project>

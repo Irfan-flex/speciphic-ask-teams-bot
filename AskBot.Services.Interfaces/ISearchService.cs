@@ -1,6 +1,4 @@
-﻿using AskBot.Services.IO;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using AskBot.Services.Models.Out;
 
 namespace AskBot.Services.Interfaces
 {

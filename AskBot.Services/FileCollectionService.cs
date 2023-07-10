@@ -1,11 +1,4 @@
 ﻿using AskBot.Services.Interfaces;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Text.Json.Nodes;
-using System.Threading.Tasks;
 
 namespace AskBot.Services
 {

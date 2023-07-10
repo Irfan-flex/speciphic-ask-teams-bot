@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
+﻿using AskBot.Services.Interfaces;
+using Microsoft.Extensions.Configuration;
 
 namespace AskBot.Services.AskUri
 {
